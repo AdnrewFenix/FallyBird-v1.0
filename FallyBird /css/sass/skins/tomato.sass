@@ -1,0 +1,158 @@
+@import "../bourbon/bourbon"
+
+$color: #FF6347 //Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $color
+
+p,
+body .main_footer,
+.s_about li
+	color: $text_color
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+.main_color_bg
+	background-color: $main_color 
+.bg_light
+	background-color: $bg_light
+.bg_dark
+	background-color: $main_color
+	color: #fff
+	.s_descr::after
+		background-color: #fff
+	a
+		color: #fff	
+
+svg
+
+path
+	fill: #D8D646
+
+
+
+.togle_mnu
+	background-color: #B62763
+	
+
+.top_mnu
+	a
+		color: #fff
+		display: block
+		padding: 20px 0
+		text-transform: uppercase
+		+kerning(4)
+
+.top_mnu
+	a:hover
+		color: $color
+		background-color: rgba(206,196,196,0.3)
+
+.top_text
+	p
+		color: $bg_light
+		+kerning(10)
+	
+
+.s_descr
+	+kerning(5)
+	&::after
+		background-color: $main_color
+
+
+section
+	h3
+		color: $text_color
+		+kerning(3)
+
+.s_about
+	p:nth-child(even)
+		color: $color
+		padding-top: 30px
+	
+.personal
+	+kerning(2)
+
+
+.social_wrap
+	ul,
+	li
+		a:hover
+			i
+				color: #B62763
+
+
+.resume_container	
+	h3
+		color: $main_color
+		+kerning(2)
+		font-size: 14px	
+		font-weight: 600	
+	.left
+	
+
+	.right			
+
+.resume_item
+	.year
+		padding: 10px 20px
+		background-color: $color
+		font-weight: 600
+		color: #fff
+		margin-bottom: 30px
+
+
+.resume_description
+	+kerning(1)	
+
+.a_photo
+	li
+		color: $text_color
+		+kerning(2)
+	li.active
+		color: #fff
+		border-bottom: 1px solid $color
+
+.portfolio_item
+	.port_item_cont
+		a
+			border-color: $color
+			color: $color
+	
+.mfp-close-btn-in .mfp-close
+	color: #fff
+	&:hover
+		color: #CE0606
+
+.main_footer .social_wrap
+	a
+		color: $color			
+
+.contact_icon
+	color: $color		
+
+form
+	input:focus,
+	textarea:focus
+		border: 1px solid $color
+	button
+		background-color: $color
+		+kerning(2)
+
+.form-group
+	+kerning(2)
+	color: #888

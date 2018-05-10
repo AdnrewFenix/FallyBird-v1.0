@@ -1,0 +1,124 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #FF6347; }
+
+p,
+body .main_footer,
+.s_about li {
+  color: #888; }
+
+.color_element {
+  color: #FF6347; }
+
+.color_bg {
+  background-color: #FF6347; }
+
+.color_border {
+  border-color: #FF6347; }
+
+.main_color_bg {
+  background-color: #222; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+path {
+  fill: #D8D646; }
+
+.togle_mnu {
+  background-color: #B62763; }
+
+.top_mnu a {
+  color: #fff;
+  display: block;
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 4px; }
+
+.top_mnu a:hover {
+  color: #FF6347;
+  background-color: rgba(206, 196, 196, 0.3); }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 10px; }
+
+.s_descr {
+  letter-spacing: 5px; }
+  .s_descr::after {
+    background-color: #222; }
+
+section h3 {
+  color: #888;
+  letter-spacing: 3px; }
+
+.s_about p:nth-child(even) {
+  color: #FF6347;
+  padding-top: 30px; }
+
+.personal {
+  letter-spacing: 2px; }
+
+.social_wrap ul a:hover i,
+.social_wrap li a:hover i {
+  color: #B62763; }
+
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 600; }
+
+.resume_item .year {
+  padding: 10px 20px;
+  background-color: #FF6347;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 30px; }
+
+.resume_description {
+  letter-spacing: 1px; }
+
+.a_photo li {
+  color: #888;
+  letter-spacing: 2px; }
+.a_photo li.active {
+  color: #fff;
+  border-bottom: 1px solid #FF6347; }
+
+.portfolio_item .port_item_cont a {
+  border-color: #FF6347;
+  color: #FF6347; }
+
+.mfp-close-btn-in .mfp-close {
+  color: #fff; }
+  .mfp-close-btn-in .mfp-close:hover {
+    color: #CE0606; }
+
+.main_footer .social_wrap a {
+  color: #FF6347; }
+
+.contact_icon {
+  color: #FF6347; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #FF6347; }
+form button {
+  background-color: #FF6347;
+  letter-spacing: 2px; }
+
+.form-group {
+  letter-spacing: 2px;
+  color: #888; }

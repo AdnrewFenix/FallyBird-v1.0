@@ -1,0 +1,35 @@
+/*
+Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 1 tab.
+        on line 24 of D:\Photoshop Project\WordPress-Project\__clean_html_original\css\sass\main.sass
+
+19: .hidden
+20: 	display: none
+21: 
+22: section,
+23: .main_head
+24:  position: relative
+25: 
+26: 
+27: .main_head
+28:   min-height: 620px
+
+Backtrace:
+D:\Photoshop Project\WordPress-Project\__clean_html_original\css\sass\main.sass:24
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:486:in `block in tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:444:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:444:in `each_with_index'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:444:in `tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:409:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 1 tab.\A         on line 24 of D:\Photoshop Project\WordPress-Project\__clean_html_original\css\sass\main.sass\A \A 19: .hidden\A 20: 	display: none\A 21: \A 22: section,\A 23: .main_head\A 24:  position: relative\A 25: \A 26: \A 27: .main_head\A 28:   min-height: 620px"; }

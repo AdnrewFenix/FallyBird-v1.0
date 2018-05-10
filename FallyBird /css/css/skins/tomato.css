@@ -1,0 +1,31 @@
+/*
+Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 1 tab.
+        on line 29 of D:\Photoshop Project\WordPress-Project\__clean_html_original\css\sass\skins\tomato.sass
+
+24: 	background-color: $color
+25: .color_border
+26: 	border-color: $color
+27: 
+28: .main_color_bg
+29:  background-color: $main_color
+
+Backtrace:
+D:\Photoshop Project\WordPress-Project\__clean_html_original\css\sass\skins\tomato.sass:29
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:486:in `block in tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:444:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:444:in `each_with_index'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:444:in `tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:409:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 1 tab.\A         on line 29 of D:\Photoshop Project\WordPress-Project\__clean_html_original\css\sass\skins\tomato.sass\A \A 24: 	background-color: $color\A 25: .color_border\A 26: 	border-color: $color\A 27: \A 28: .main_color_bg\A 29:  background-color: $main_color"; }
